@@ -1,5 +1,13 @@
 # Privacy Analysis
 + Comparing Mobile Privacy Protection through Cross-Platform Applications, NDSS 2013
-```xml
-Abstract-With the rapid growth of the mobile market, security of mobile platforms is receiving increasing attention from both research community as well as the public. In this paper, we make the first attempt to establish a baseline for security comparison between the two most popular mobile platforms. We investigate applications that run on both Android and iOS and examine the difference in the usage of their security sensitive APIs (SS-APIs). Our analysis over 2,600 applications shows that iOS applications consistently access more SS-APIs than their counterparts on Android. The additional privileges gained on iOS are often associated with accessing private resources such as device ID, camera, and users’ contacts. A possible explanation for this difference in SS-API usage is that privileges obtained by an application on the current iOS platform are invisible to end users. Our analysis shows that: 1) third-party libraries (specifically advertising and analytic libraries) on iOS invoke more SS-APIs than those on Android; 2) Android application developers avoid requesting unnecessary privileges which will be shown in the permission list during application installation. Considering the fact that an Android application may gain additional privileges with privilege-escalation attacks and iOS provides a more restricted privilege set accessible by third-party applications, our results do not necessarily imply that Android provides better privacy protection than iOS. However, our evidence suggests that Apple’s application vetting process may not be as effective as Android’s privilege notification mechanism, particularly in protecting sensitive resources from third-party applications. 
-```
++ ProtectMyPrivacy: Detecting and Mitigating Privacy Leaks on iOS Devices Using CrowdSourcing, MobiSys 2013 (tool: ProtectMyPrivacy)
++ PSiOS: Bring Your Own Privacy & Security to iOS Devices, AsiaCCS 2013 (tool: PSiOS)
++ DiOS: Dynamic Privacy Analysis of iOS Applications, TechReport 2014
+
+# Private API Abuse
++ iRiS: Vetting Private API Abuse in iOS Applications, CCS 2015 (tool: iRis)
++ iOS Apps Caught Using Private APIs, 2016 (https://sourcedna.com/blog/20151018/ios-apps-using-private-apis.html)
+
+
+# Vulnerabitlies & Attacks
++ AceDeceiver: First iOS Trojan Exploiting Apple DRM Design Flaws to Infect Any iOS Device, 2016 (http://researchcenter.paloaltonetworks.com/2016/03/acedeceiver-first-ios-trojan-exploiting-apple-drm-design-flaws-to-infect-any-ios-device/)
